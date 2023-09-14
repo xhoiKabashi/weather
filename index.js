@@ -1,7 +1,7 @@
 // Define a function to fetch weather data and update the DOM
 async function updateWeather(city) {
   const api =
-    "http://api.weatherapi.com/v1/current.json?key=3a39ec3085694a678bb135737231209&q=";
+    "https://api.weatherapi.com/v1/current.json?key=3a39ec3085694a678bb135737231209&q=";
   const result = api + city;
   const img = document.querySelector("#img");
 
