@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#3f3f46, #09090b);
+}
+.main-card {
+  height: 700px;
+  width: 400px;
+  max-width: 90%;
+  background-image: url(./img/BG.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  color: aliceblue;
+  border-radius: 15px;
+}
+
+
+
+button img {
+    height: 20px;
+}
+.search {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+.search input{
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.search button {
+    border-radius: 45%;
+    padding: 5px 10px;
+}
+
+.search * {
+
+    border: none;
+    background-color: #e2e8f0;
+    color: black;
+}
+
+.card {
+text-align: center;
+
+}
+
+.card img {
+
+    border-radius: 10px;
+    height: 200px;
+
+}
+
+/* display date  */
+
+
+.next-days {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.next-days .min-card {
+height: 100px;
+width: 100px;
+border: 1px solid white;
+}
+
